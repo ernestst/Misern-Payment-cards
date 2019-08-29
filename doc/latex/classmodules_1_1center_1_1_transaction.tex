@@ -1,0 +1,175 @@
+\hypertarget{classmodules_1_1center_1_1_transaction}{}\section{modules.\+center.\+Transaction Class Reference}
+\label{classmodules_1_1center_1_1_transaction}\index{modules.\+center.\+Transaction@{modules.\+center.\+Transaction}}
+Inheritance diagram for modules.\+center.\+Transaction\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmodules_1_1center_1_1_transaction}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a9c2f6911a50a48045ae02cf3745ab099}{Transaction}} (\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} comp, \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} bank, \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} card, double amount, String date)
+\item 
+\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a36736cde43af28fdbdbd8f654c06f43f}{get\+Comp}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a64eefb348cd04298f7ce558520ade5c1}{set\+Comp}} (\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} comp)
+\item 
+\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a4e88acd3f3e8c57b607f1a530d0b20e9}{get\+Card}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a58f60b56607132a4c4f7e3b600678c62}{set\+Card}} (\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} card)
+\item 
+double \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a07f5da80f0513a62a446af3cd920a060}{get\+Amount}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a691012713b25759ed7b766dbc5d47ed8}{set\+Amount}} (double amount)
+\item 
+String \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a4a1d002cbca929b11c9e6b85308b9f9b}{get\+Date}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a7c47993064afc6b1eb49c04c5e3021a4}{set\+Date}} (String date)
+\item 
+\mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_abf7f185bbd1e2843e269630b01b15d49}{get\+Bank}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a526239006b95c701732c22125ea7badc}{set\+Bank}} (\mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} bank)
+\item 
+String \mbox{\hyperlink{classmodules_1_1center_1_1_transaction_a05507271a0e2347ee6c555cf39fc232e}{to\+String}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The properties of transaction that were created in the company,contains the object of company, object of the card, amount and date.
+
+\begin{DoxyAuthor}{Author}
+Micha³ Fi³oñczuk 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+5 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a9c2f6911a50a48045ae02cf3745ab099}\label{classmodules_1_1center_1_1_transaction_a9c2f6911a50a48045ae02cf3745ab099}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!Transaction@{Transaction}}
+\index{Transaction@{Transaction}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{Transaction()}{Transaction()}}
+{\footnotesize\ttfamily modules.\+center.\+Transaction.\+Transaction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}}}]{comp,  }\item[{\mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}}}]{bank,  }\item[{\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}}}]{card,  }\item[{double}]{amount,  }\item[{String}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Standard way to create transaction object with filled fields 
+\begin{DoxyParams}{Parameters}
+{\em comp} & object of the company where transaction was created \\
+\hline
+{\em card} & object of the card that was used in transation \\
+\hline
+{\em amount} & value of the transaction \\
+\hline
+{\em date} & date of the transaction \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a07f5da80f0513a62a446af3cd920a060}\label{classmodules_1_1center_1_1_transaction_a07f5da80f0513a62a446af3cd920a060}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!get\+Amount@{get\+Amount}}
+\index{get\+Amount@{get\+Amount}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{get\+Amount()}{getAmount()}}
+{\footnotesize\ttfamily double modules.\+center.\+Transaction.\+get\+Amount (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets amount of money used in this transaction \begin{DoxyReturn}{Returns}
+double value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_abf7f185bbd1e2843e269630b01b15d49}\label{classmodules_1_1center_1_1_transaction_abf7f185bbd1e2843e269630b01b15d49}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!get\+Bank@{get\+Bank}}
+\index{get\+Bank@{get\+Bank}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{get\+Bank()}{getBank()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} modules.\+center.\+Transaction.\+get\+Bank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets bank connected with this transaction \begin{DoxyReturn}{Returns}
+Bank object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a4e88acd3f3e8c57b607f1a530d0b20e9}\label{classmodules_1_1center_1_1_transaction_a4e88acd3f3e8c57b607f1a530d0b20e9}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!get\+Card@{get\+Card}}
+\index{get\+Card@{get\+Card}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{get\+Card()}{getCard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} modules.\+center.\+Transaction.\+get\+Card (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets card connected with this transaction \begin{DoxyReturn}{Returns}
+Credit\+Card, Bank\+Card or Debit\+Card object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a36736cde43af28fdbdbd8f654c06f43f}\label{classmodules_1_1center_1_1_transaction_a36736cde43af28fdbdbd8f654c06f43f}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!get\+Comp@{get\+Comp}}
+\index{get\+Comp@{get\+Comp}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{get\+Comp()}{getComp()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} modules.\+center.\+Transaction.\+get\+Comp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets company connected with this transaction \begin{DoxyReturn}{Returns}
+Company object 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a4a1d002cbca929b11c9e6b85308b9f9b}\label{classmodules_1_1center_1_1_transaction_a4a1d002cbca929b11c9e6b85308b9f9b}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!get\+Date@{get\+Date}}
+\index{get\+Date@{get\+Date}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{get\+Date()}{getDate()}}
+{\footnotesize\ttfamily String modules.\+center.\+Transaction.\+get\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets date of the transaction \begin{DoxyReturn}{Returns}
+String date in format \char`\"{}\+Y\+Y\+Y\+Y-\/\+M\+M-\/\+D\+D\char`\"{} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a691012713b25759ed7b766dbc5d47ed8}\label{classmodules_1_1center_1_1_transaction_a691012713b25759ed7b766dbc5d47ed8}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!set\+Amount@{set\+Amount}}
+\index{set\+Amount@{set\+Amount}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{set\+Amount()}{setAmount()}}
+{\footnotesize\ttfamily void modules.\+center.\+Transaction.\+set\+Amount (\begin{DoxyParamCaption}\item[{double}]{amount }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets amount of money used in this transaction 
+\begin{DoxyParams}{Parameters}
+{\em amount} & -\/ double value \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a526239006b95c701732c22125ea7badc}\label{classmodules_1_1center_1_1_transaction_a526239006b95c701732c22125ea7badc}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!set\+Bank@{set\+Bank}}
+\index{set\+Bank@{set\+Bank}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{set\+Bank()}{setBank()}}
+{\footnotesize\ttfamily void modules.\+center.\+Transaction.\+set\+Bank (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}}}]{bank }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets bank connected with this transaction \mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a58f60b56607132a4c4f7e3b600678c62}\label{classmodules_1_1center_1_1_transaction_a58f60b56607132a4c4f7e3b600678c62}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!set\+Card@{set\+Card}}
+\index{set\+Card@{set\+Card}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{set\+Card()}{setCard()}}
+{\footnotesize\ttfamily void modules.\+center.\+Transaction.\+set\+Card (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}}}]{card }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets card connected with this transaction 
+\begin{DoxyParams}{Parameters}
+{\em card} & -\/ specified type of card to bind \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a64eefb348cd04298f7ce558520ade5c1}\label{classmodules_1_1center_1_1_transaction_a64eefb348cd04298f7ce558520ade5c1}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!set\+Comp@{set\+Comp}}
+\index{set\+Comp@{set\+Comp}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{set\+Comp()}{setComp()}}
+{\footnotesize\ttfamily void modules.\+center.\+Transaction.\+set\+Comp (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}}}]{comp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets company connected with this transaction 
+\begin{DoxyParams}{Parameters}
+{\em comp} & -\/ company object \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a7c47993064afc6b1eb49c04c5e3021a4}\label{classmodules_1_1center_1_1_transaction_a7c47993064afc6b1eb49c04c5e3021a4}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!set\+Date@{set\+Date}}
+\index{set\+Date@{set\+Date}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{set\+Date()}{setDate()}}
+{\footnotesize\ttfamily void modules.\+center.\+Transaction.\+set\+Date (\begin{DoxyParamCaption}\item[{String}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets date of the transaction 
+\begin{DoxyParams}{Parameters}
+{\em date} & -\/ string in format \char`\"{}\+Y\+Y\+Y\+Y-\/\+M\+M-\/\+D\+D\char`\"{} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_transaction_a05507271a0e2347ee6c555cf39fc232e}\label{classmodules_1_1center_1_1_transaction_a05507271a0e2347ee6c555cf39fc232e}} 
+\index{modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!modules\+::center\+::\+Transaction@{modules\+::center\+::\+Transaction}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily String modules.\+center.\+Transaction.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Converts object to string value 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/center/Transaction.\+java\end{DoxyCompactItemize}

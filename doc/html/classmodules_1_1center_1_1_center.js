@@ -1,0 +1,26 @@
+var classmodules_1_1center_1_1_center =
+[
+    [ "Center", "classmodules_1_1center_1_1_center.html#aafc563c22cba49aff26c18c77c7e75d1", null ],
+    [ "addBank", "classmodules_1_1center_1_1_center.html#a01c47eb618c0c02f5e5df13431d6e8d6", null ],
+    [ "addCompany", "classmodules_1_1center_1_1_center.html#ae932db611d3a47791cc436ccc19e0311", null ],
+    [ "addUser", "classmodules_1_1center_1_1_center.html#aed29433137817c4fe2aae993e96a9d8e", null ],
+    [ "deleteBank", "classmodules_1_1center_1_1_center.html#a89031970f6b3cdc56028756583806062", null ],
+    [ "deleteCompany", "classmodules_1_1center_1_1_center.html#ad4963e37162d6ce7ef17e00e36084853", null ],
+    [ "deleteUser", "classmodules_1_1center_1_1_center.html#a0cc5fe3896c5cf301b89b0dc8b48afc2", null ],
+    [ "editBank", "classmodules_1_1center_1_1_center.html#a51e8ba3fb8ba9add102c99105443c331", null ],
+    [ "editCompany", "classmodules_1_1center_1_1_center.html#a542e2193495e6143fc6e950de4deee52", null ],
+    [ "editUser", "classmodules_1_1center_1_1_center.html#a4b22f74fcfa6f3ca065f08f544749b46", null ],
+    [ "getArchive_transactions", "classmodules_1_1center_1_1_center.html#ac5a4b03e0e634db0e9a019d19677594e", null ],
+    [ "getArchivedTransaction", "classmodules_1_1center_1_1_center.html#ad841c33b5a86c38f7e4d3909928c2707", null ],
+    [ "getArchiveTransactions", "classmodules_1_1center_1_1_center.html#ac7b4f20fffa160179ede31778f2773e0", null ],
+    [ "getBanks", "classmodules_1_1center_1_1_center.html#a61f9d6529ad2b0cadd05f2e3c5ae3980", null ],
+    [ "getCompanies", "classmodules_1_1center_1_1_center.html#a28a1f7e7802c5582806241aae1e22d01", null ],
+    [ "getLoggedBank", "classmodules_1_1center_1_1_center.html#ab52736c9e7079464e7488903193e96b3", null ],
+    [ "getLoggedCompany", "classmodules_1_1center_1_1_center.html#a17d51c3fcb4d470a74a54e48f525cb51", null ],
+    [ "getUsers", "classmodules_1_1center_1_1_center.html#a5556fd8c6a1499a0f0ebf4e445be7853", null ],
+    [ "handleTransaction", "classmodules_1_1center_1_1_center.html#aa7c6eab15974906f73962b7db4154a77", null ],
+    [ "setArchive_transactions", "classmodules_1_1center_1_1_center.html#a751435feeb7bcd12bbe40fdead36b592", null ],
+    [ "setBanks", "classmodules_1_1center_1_1_center.html#a32147ff3de943d0c2f658f5ea307c338", null ],
+    [ "setLoggedBank", "classmodules_1_1center_1_1_center.html#ae78146080dffaba6b20b789d5558b775", null ],
+    [ "setLoggedCompany", "classmodules_1_1center_1_1_center.html#a752cd6c91d119e2e2c72ff844114548e", null ]
+];

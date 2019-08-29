@@ -1,0 +1,366 @@
+\hypertarget{classmodules_1_1center_1_1_center}{}\section{modules.\+center.\+Center Class Reference}
+\label{classmodules_1_1center_1_1_center}\index{modules.\+center.\+Center@{modules.\+center.\+Center}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmodules_1_1center_1_1_center_aafc563c22cba49aff26c18c77c7e75d1}{Center}} ()  throws Class\+Not\+Found\+Exception, I\+O\+Exception 
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} $>$ \mbox{\hyperlink{classmodules_1_1center_1_1_center_a61f9d6529ad2b0cadd05f2e3c5ae3980}{get\+Banks}} ()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} $>$ \mbox{\hyperlink{classmodules_1_1center_1_1_center_a28a1f7e7802c5582806241aae1e22d01}{get\+Companies}} ()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} $>$ \mbox{\hyperlink{classmodules_1_1center_1_1_center_ac7b4f20fffa160179ede31778f2773e0}{get\+Archive\+Transactions}} ()
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_user}{User}} $>$ \mbox{\hyperlink{classmodules_1_1center_1_1_center_a5556fd8c6a1499a0f0ebf4e445be7853}{get\+Users}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_aed29433137817c4fe2aae993e96a9d8e}{add\+User}} (String login, String password, String rights, String org\+Name)
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_a01c47eb618c0c02f5e5df13431d6e8d6}{add\+Bank}} (String name)
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_ae932db611d3a47791cc436ccc19e0311}{add\+Company}} (String name, String type)
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_a0cc5fe3896c5cf301b89b0dc8b48afc2}{delete\+User}} (String login)
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_a89031970f6b3cdc56028756583806062}{delete\+Bank}} (String name)
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_ad4963e37162d6ce7ef17e00e36084853}{delete\+Company}} (String name)
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_a542e2193495e6143fc6e950de4deee52}{edit\+Company}} (String name, String type, int order)
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_a4b22f74fcfa6f3ca065f08f544749b46}{edit\+User}} (String login, String password, String role, String org\+Name, int order)
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_a51e8ba3fb8ba9add102c99105443c331}{edit\+Bank}} (String name, int order)  throws Data\+Card\+Exception 
+\item 
+boolean \mbox{\hyperlink{classmodules_1_1center_1_1_center_aa7c6eab15974906f73962b7db4154a77}{handle\+Transaction}} (\mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} trans)
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} $>$ \mbox{\hyperlink{classmodules_1_1center_1_1_center_ad841c33b5a86c38f7e4d3909928c2707}{get\+Archived\+Transaction}} (String query)
+\item 
+\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} \mbox{\hyperlink{classmodules_1_1center_1_1_center_a17d51c3fcb4d470a74a54e48f525cb51}{get\+Logged\+Company}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_a752cd6c91d119e2e2c72ff844114548e}{set\+Logged\+Company}} (\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} logged\+Company)
+\item 
+\mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} \mbox{\hyperlink{classmodules_1_1center_1_1_center_ab52736c9e7079464e7488903193e96b3}{get\+Logged\+Bank}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_ae78146080dffaba6b20b789d5558b775}{set\+Logged\+Bank}} (\mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} logged\+Bank)
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_a32147ff3de943d0c2f658f5ea307c338}{set\+Banks}} (Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} $>$ banks)
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} $>$ \mbox{\hyperlink{classmodules_1_1center_1_1_center_ac5a4b03e0e634db0e9a019d19677594e}{get\+Archive\+\_\+transactions}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1center_1_1_center_a751435feeb7bcd12bbe40fdead36b592}{set\+Archive\+\_\+transactions}} (Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} $>$ archive\+\_\+transactions)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class contains the list of all transactions ,center users and banks. \begin{DoxyAuthor}{Author}
+Micha³ Fi³oñczuk 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+5 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_aafc563c22cba49aff26c18c77c7e75d1}\label{classmodules_1_1center_1_1_center_aafc563c22cba49aff26c18c77c7e75d1}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!Center@{Center}}
+\index{Center@{Center}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{Center()}{Center()}}
+{\footnotesize\ttfamily modules.\+center.\+Center.\+Center (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws Class\+Not\+Found\+Exception, I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Standard way to create \mbox{\hyperlink{classmodules_1_1center_1_1_center}{Center}} object 
+\begin{DoxyExceptions}{Exceptions}
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a01c47eb618c0c02f5e5df13431d6e8d6}\label{classmodules_1_1center_1_1_center_a01c47eb618c0c02f5e5df13431d6e8d6}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!add\+Bank@{add\+Bank}}
+\index{add\+Bank@{add\+Bank}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{add\+Bank()}{addBank()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+add\+Bank (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds new bank to the list 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ String name of new bank \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+{\em I\+O\+Exception} & \\
+\hline
+{\em Data\+Card\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_ae932db611d3a47791cc436ccc19e0311}\label{classmodules_1_1center_1_1_center_ae932db611d3a47791cc436ccc19e0311}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!add\+Company@{add\+Company}}
+\index{add\+Company@{add\+Company}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{add\+Company()}{addCompany()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+add\+Company (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{String}]{type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds new company to the list 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ String name of the company \\
+\hline
+{\em type} & -\/ String type of the company matches type in G\+UI \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_aed29433137817c4fe2aae993e96a9d8e}\label{classmodules_1_1center_1_1_center_aed29433137817c4fe2aae993e96a9d8e}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!add\+User@{add\+User}}
+\index{add\+User@{add\+User}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{add\+User()}{addUser()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+add\+User (\begin{DoxyParamCaption}\item[{String}]{login,  }\item[{String}]{password,  }\item[{String}]{rights,  }\item[{String}]{org\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds new user to the list
+
+
+\begin{DoxyParams}{Parameters}
+{\em login} & -\/ String login of the user \\
+\hline
+{\em password} & -\/ String unencrypted password of the user \\
+\hline
+{\em rights} & -\/ String one option of\+: bank/company/admin \\
+\hline
+{\em org\+Name} & -\/ String Bank or Company name \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a89031970f6b3cdc56028756583806062}\label{classmodules_1_1center_1_1_center_a89031970f6b3cdc56028756583806062}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!delete\+Bank@{delete\+Bank}}
+\index{delete\+Bank@{delete\+Bank}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{delete\+Bank()}{deleteBank()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+delete\+Bank (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Deletes bank from the list 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ String name of the bank to delete \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_ad4963e37162d6ce7ef17e00e36084853}\label{classmodules_1_1center_1_1_center_ad4963e37162d6ce7ef17e00e36084853}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!delete\+Company@{delete\+Company}}
+\index{delete\+Company@{delete\+Company}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{delete\+Company()}{deleteCompany()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+delete\+Company (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Deletes company from the list 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ String name of the company to delete \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a0cc5fe3896c5cf301b89b0dc8b48afc2}\label{classmodules_1_1center_1_1_center_a0cc5fe3896c5cf301b89b0dc8b48afc2}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!delete\+User@{delete\+User}}
+\index{delete\+User@{delete\+User}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{delete\+User()}{deleteUser()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+delete\+User (\begin{DoxyParamCaption}\item[{String}]{login }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Deletes user from the list 
+\begin{DoxyParams}{Parameters}
+{\em login} & -\/ String login of the user to delete \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a51e8ba3fb8ba9add102c99105443c331}\label{classmodules_1_1center_1_1_center_a51e8ba3fb8ba9add102c99105443c331}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!edit\+Bank@{edit\+Bank}}
+\index{edit\+Bank@{edit\+Bank}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{edit\+Bank()}{editBank()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+edit\+Bank (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{int}]{order }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classsystem_1_1exceptions_1_1_data_card_exception}{Data\+Card\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Updates one record from banks list 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ String new name of the bank \\
+\hline
+{\em order} & -\/ Integer index of the bank in list \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Data\+Card\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a542e2193495e6143fc6e950de4deee52}\label{classmodules_1_1center_1_1_center_a542e2193495e6143fc6e950de4deee52}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!edit\+Company@{edit\+Company}}
+\index{edit\+Company@{edit\+Company}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{edit\+Company()}{editCompany()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+edit\+Company (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{String}]{type,  }\item[{int}]{order }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Updates one record from companies list 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ String new name of the company \\
+\hline
+{\em type} & -\/ String new type of the company (that matches one of the types from G\+UI) \\
+\hline
+{\em order} & -\/ Integer index of the record in list \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a4b22f74fcfa6f3ca065f08f544749b46}\label{classmodules_1_1center_1_1_center_a4b22f74fcfa6f3ca065f08f544749b46}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!edit\+User@{edit\+User}}
+\index{edit\+User@{edit\+User}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{edit\+User()}{editUser()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+edit\+User (\begin{DoxyParamCaption}\item[{String}]{login,  }\item[{String}]{password,  }\item[{String}]{role,  }\item[{String}]{org\+Name,  }\item[{int}]{order }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Updates one record from users list 
+\begin{DoxyParams}{Parameters}
+{\em login} & -\/ String new login of the user \\
+\hline
+{\em password} & -\/ String new unencrypted pass of the user \\
+\hline
+{\em role} & -\/ String new role of the user (that matches one of the role from G\+UI) \\
+\hline
+{\em order} & -\/ Integer index of the user in list \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_ac5a4b03e0e634db0e9a019d19677594e}\label{classmodules_1_1center_1_1_center_ac5a4b03e0e634db0e9a019d19677594e}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!get\+Archive\+\_\+transactions@{get\+Archive\+\_\+transactions}}
+\index{get\+Archive\+\_\+transactions@{get\+Archive\+\_\+transactions}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{get\+Archive\+\_\+transactions()}{getArchive\_transactions()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}}$>$ modules.\+center.\+Center.\+get\+Archive\+\_\+transactions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets full list of archived transactions \begin{DoxyReturn}{Returns}
+Array\+List of transactions 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_ad841c33b5a86c38f7e4d3909928c2707}\label{classmodules_1_1center_1_1_center_ad841c33b5a86c38f7e4d3909928c2707}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!get\+Archived\+Transaction@{get\+Archived\+Transaction}}
+\index{get\+Archived\+Transaction@{get\+Archived\+Transaction}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{get\+Archived\+Transaction()}{getArchivedTransaction()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}}$>$ modules.\+center.\+Center.\+get\+Archived\+Transaction (\begin{DoxyParamCaption}\item[{String}]{query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Returns the list of the transactions according to entered query
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & string -\/ properties of transaction you looking for, F\+O\+R\+M\+AT\+: Company\+:\+Bank\+:\+Card\+:amount\+:owner where\+: company is the name of company, bank is the name of the bank, card is card number, amount is amount\+:),date is date of the transaction(F\+O\+R\+M\+AT\+:D\+D-\/\+M\+M-\/\+R\+R\+RR) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns the requested transactions form the archives 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_ac7b4f20fffa160179ede31778f2773e0}\label{classmodules_1_1center_1_1_center_ac7b4f20fffa160179ede31778f2773e0}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!get\+Archive\+Transactions@{get\+Archive\+Transactions}}
+\index{get\+Archive\+Transactions@{get\+Archive\+Transactions}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{get\+Archive\+Transactions()}{getArchiveTransactions()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}}$>$ modules.\+center.\+Center.\+get\+Archive\+Transactions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets archived transactions list \begin{DoxyReturn}{Returns}
+Array\+List complete transaction list 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a61f9d6529ad2b0cadd05f2e3c5ae3980}\label{classmodules_1_1center_1_1_center_a61f9d6529ad2b0cadd05f2e3c5ae3980}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!get\+Banks@{get\+Banks}}
+\index{get\+Banks@{get\+Banks}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{get\+Banks()}{getBanks()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}}$>$ modules.\+center.\+Center.\+get\+Banks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets banks list \begin{DoxyReturn}{Returns}
+Array\+List complete banks list 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a28a1f7e7802c5582806241aae1e22d01}\label{classmodules_1_1center_1_1_center_a28a1f7e7802c5582806241aae1e22d01}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!get\+Companies@{get\+Companies}}
+\index{get\+Companies@{get\+Companies}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{get\+Companies()}{getCompanies()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}}$>$ modules.\+center.\+Center.\+get\+Companies (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets companies list \begin{DoxyReturn}{Returns}
+Array\+List complete companies list 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_ab52736c9e7079464e7488903193e96b3}\label{classmodules_1_1center_1_1_center_ab52736c9e7079464e7488903193e96b3}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!get\+Logged\+Bank@{get\+Logged\+Bank}}
+\index{get\+Logged\+Bank@{get\+Logged\+Bank}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{get\+Logged\+Bank()}{getLoggedBank()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} modules.\+center.\+Center.\+get\+Logged\+Bank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets actual logged bank \begin{DoxyReturn}{Returns}
+Bank 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a17d51c3fcb4d470a74a54e48f525cb51}\label{classmodules_1_1center_1_1_center_a17d51c3fcb4d470a74a54e48f525cb51}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!get\+Logged\+Company@{get\+Logged\+Company}}
+\index{get\+Logged\+Company@{get\+Logged\+Company}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{get\+Logged\+Company()}{getLoggedCompany()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} modules.\+center.\+Center.\+get\+Logged\+Company (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets actual logged company \begin{DoxyReturn}{Returns}
+Company 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a5556fd8c6a1499a0f0ebf4e445be7853}\label{classmodules_1_1center_1_1_center_a5556fd8c6a1499a0f0ebf4e445be7853}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!get\+Users@{get\+Users}}
+\index{get\+Users@{get\+Users}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{get\+Users()}{getUsers()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1center_1_1_user}{User}}$>$ modules.\+center.\+Center.\+get\+Users (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets users list \begin{DoxyReturn}{Returns}
+Array\+List complete users list 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_aa7c6eab15974906f73962b7db4154a77}\label{classmodules_1_1center_1_1_center_aa7c6eab15974906f73962b7db4154a77}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!handle\+Transaction@{handle\+Transaction}}
+\index{handle\+Transaction@{handle\+Transaction}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{handle\+Transaction()}{handleTransaction()}}
+{\footnotesize\ttfamily boolean modules.\+center.\+Center.\+handle\+Transaction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}}}]{trans }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Passes transaction to the bank; \begin{DoxyAuthor}{Author}
+Micha³ Fi³oñczuk 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em trans} & -\/ transaction object to check \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean true -\/ if transaction is accepted, false -\/ if transaction is rejected 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a751435feeb7bcd12bbe40fdead36b592}\label{classmodules_1_1center_1_1_center_a751435feeb7bcd12bbe40fdead36b592}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!set\+Archive\+\_\+transactions@{set\+Archive\+\_\+transactions}}
+\index{set\+Archive\+\_\+transactions@{set\+Archive\+\_\+transactions}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{set\+Archive\+\_\+transactions()}{setArchive\_transactions()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+set\+Archive\+\_\+transactions (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} $>$}]{archive\+\_\+transactions }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets list of archived transactions 
+\begin{DoxyParams}{Parameters}
+{\em archive\+\_\+transactions} & Array\+List of transactions \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a32147ff3de943d0c2f658f5ea307c338}\label{classmodules_1_1center_1_1_center_a32147ff3de943d0c2f658f5ea307c338}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!set\+Banks@{set\+Banks}}
+\index{set\+Banks@{set\+Banks}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{set\+Banks()}{setBanks()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+set\+Banks (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} $>$}]{banks }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets list of banks for center 
+\begin{DoxyParams}{Parameters}
+{\em banks} & Array\+List of all banks \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_ae78146080dffaba6b20b789d5558b775}\label{classmodules_1_1center_1_1_center_ae78146080dffaba6b20b789d5558b775}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!set\+Logged\+Bank@{set\+Logged\+Bank}}
+\index{set\+Logged\+Bank@{set\+Logged\+Bank}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{set\+Logged\+Bank()}{setLoggedBank()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+set\+Logged\+Bank (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}}}]{logged\+Bank }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets actual logged bank 
+\begin{DoxyParams}{Parameters}
+{\em logged\+Bank} & Bank \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1center_1_1_center_a752cd6c91d119e2e2c72ff844114548e}\label{classmodules_1_1center_1_1_center_a752cd6c91d119e2e2c72ff844114548e}} 
+\index{modules\+::center\+::\+Center@{modules\+::center\+::\+Center}!set\+Logged\+Company@{set\+Logged\+Company}}
+\index{set\+Logged\+Company@{set\+Logged\+Company}!modules\+::center\+::\+Center@{modules\+::center\+::\+Center}}
+\subsubsection{\texorpdfstring{set\+Logged\+Company()}{setLoggedCompany()}}
+{\footnotesize\ttfamily void modules.\+center.\+Center.\+set\+Logged\+Company (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}}}]{logged\+Company }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets actual logged company 
+\begin{DoxyParams}{Parameters}
+{\em logged\+Company} & Company \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/center/Center.\+java\end{DoxyCompactItemize}

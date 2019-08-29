@@ -1,0 +1,210 @@
+\hypertarget{classmodules_1_1_client}{}\section{modules.\+Client Class Reference}
+\label{classmodules_1_1_client}\index{modules.\+Client@{modules.\+Client}}
+Inheritance diagram for modules.\+Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmodules_1_1_client}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmodules_1_1_client_a50a7497cb32369672791ba33ace3264a}{Client}} (String n, String s, String p)
+\item 
+void \mbox{\hyperlink{classmodules_1_1_client_af9336218314937dc1a6820e84300b2bf}{add\+Card}} (\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} c)
+\item 
+void \mbox{\hyperlink{classmodules_1_1_client_adc18605a931558c2483d48bf2cf36b0b}{delete\+Card}} (\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} c)
+\item 
+void \mbox{\hyperlink{classmodules_1_1_client_a4fd4fe0ecb40203d81addd411abd18df}{delete\+Card}} (int number)  throws I\+O\+Exception, Class\+Not\+Found\+Exception 
+\item 
+String \mbox{\hyperlink{classmodules_1_1_client_abf135a1873bab2a59572e5208faa6b93}{get\+Pesel}} ()
+\item 
+String \mbox{\hyperlink{classmodules_1_1_client_afec5499055f7177339a5ff45bbcfff10}{get\+Name}} ()
+\item 
+String \mbox{\hyperlink{classmodules_1_1_client_a9edde75585aa9be7aebb9a9b818c6e12}{get\+Surname}} ()
+\item 
+String \mbox{\hyperlink{classmodules_1_1_client_a9ed6710e3598afe3dda7dac426c495fe}{to\+String}} ()
+\item 
+boolean \mbox{\hyperlink{classmodules_1_1_client_aa2b00842b4607600838347f2410c97ec}{has\+Card}} (\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} card)
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} $>$ \mbox{\hyperlink{classmodules_1_1_client_a4b56c055f3afc28546ea29b9579f79a1}{get\+Cards}} ()
+\item 
+boolean \mbox{\hyperlink{classmodules_1_1_client_a85eedfbdd0cdde608d7ce84aeb215e52}{has\+Card}} (int number)
+\item 
+void \mbox{\hyperlink{classmodules_1_1_client_acaea2a8b2086e298e3b22b86c409ecf4}{set\+Pesel}} (String pesel)
+\item 
+void \mbox{\hyperlink{classmodules_1_1_client_ae4fbf557127b160ce3de90af49bc3ff9}{set\+Name}} (String name)
+\item 
+void \mbox{\hyperlink{classmodules_1_1_client_a06f2d345b05093b2d61ca6cfc1f406a1}{set\+Surname}} (String surname)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class represents specified bank customer \begin{DoxyAuthor}{Author}
+Ernest Stachelski 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+5 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmodules_1_1_client_a50a7497cb32369672791ba33ace3264a}\label{classmodules_1_1_client_a50a7497cb32369672791ba33ace3264a}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!Client@{Client}}
+\index{Client@{Client}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{Client()}{Client()}}
+{\footnotesize\ttfamily modules.\+Client.\+Client (\begin{DoxyParamCaption}\item[{String}]{n,  }\item[{String}]{s,  }\item[{String}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Standard constructor 
+\begin{DoxyParams}{Parameters}
+{\em n} & represents client name \\
+\hline
+{\em s} & represents client surname \\
+\hline
+{\em p} & represents client P\+E\+S\+EL \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmodules_1_1_client_af9336218314937dc1a6820e84300b2bf}\label{classmodules_1_1_client_af9336218314937dc1a6820e84300b2bf}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!add\+Card@{add\+Card}}
+\index{add\+Card@{add\+Card}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{add\+Card()}{addCard()}}
+{\footnotesize\ttfamily void modules.\+Client.\+add\+Card (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds card for client 
+\begin{DoxyParams}{Parameters}
+{\em c} & -\/ card object that will be bind with \mbox{\hyperlink{classmodules_1_1_client}{Client}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1_client_adc18605a931558c2483d48bf2cf36b0b}\label{classmodules_1_1_client_adc18605a931558c2483d48bf2cf36b0b}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!delete\+Card@{delete\+Card}}
+\index{delete\+Card@{delete\+Card}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{delete\+Card()}{deleteCard()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void modules.\+Client.\+delete\+Card (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}}}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Removes client card 
+\begin{DoxyParams}{Parameters}
+{\em c} & -\/ card object that will be unbind from \mbox{\hyperlink{classmodules_1_1_client}{Client}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1_client_a4fd4fe0ecb40203d81addd411abd18df}\label{classmodules_1_1_client_a4fd4fe0ecb40203d81addd411abd18df}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!delete\+Card@{delete\+Card}}
+\index{delete\+Card@{delete\+Card}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{delete\+Card()}{deleteCard()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void modules.\+Client.\+delete\+Card (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption}) throws I\+O\+Exception, Class\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Removes client card 
+\begin{DoxyParams}{Parameters}
+{\em number} & -\/ index from the list of \mbox{\hyperlink{classmodules_1_1_client}{Client}}\textquotesingle{}s cards to delete \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1_client_a4b56c055f3afc28546ea29b9579f79a1}\label{classmodules_1_1_client_a4b56c055f3afc28546ea29b9579f79a1}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!get\+Cards@{get\+Cards}}
+\index{get\+Cards@{get\+Cards}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{get\+Cards()}{getCards()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}}$>$ modules.\+Client.\+get\+Cards (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets all cards list from client \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1_client_afec5499055f7177339a5ff45bbcfff10}\label{classmodules_1_1_client_afec5499055f7177339a5ff45bbcfff10}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily String modules.\+Client.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter Name \begin{DoxyReturn}{Returns}
+string \mbox{\hyperlink{classmodules_1_1_client}{Client}} Name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1_client_abf135a1873bab2a59572e5208faa6b93}\label{classmodules_1_1_client_abf135a1873bab2a59572e5208faa6b93}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!get\+Pesel@{get\+Pesel}}
+\index{get\+Pesel@{get\+Pesel}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{get\+Pesel()}{getPesel()}}
+{\footnotesize\ttfamily String modules.\+Client.\+get\+Pesel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter P\+E\+S\+EL \begin{DoxyReturn}{Returns}
+string P\+E\+S\+EL 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1_client_a9edde75585aa9be7aebb9a9b818c6e12}\label{classmodules_1_1_client_a9edde75585aa9be7aebb9a9b818c6e12}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!get\+Surname@{get\+Surname}}
+\index{get\+Surname@{get\+Surname}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{get\+Surname()}{getSurname()}}
+{\footnotesize\ttfamily String modules.\+Client.\+get\+Surname (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter Surname \begin{DoxyReturn}{Returns}
+string \mbox{\hyperlink{classmodules_1_1_client}{Client}} Surname 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1_client_aa2b00842b4607600838347f2410c97ec}\label{classmodules_1_1_client_aa2b00842b4607600838347f2410c97ec}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!has\+Card@{has\+Card}}
+\index{has\+Card@{has\+Card}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{has\+Card()}{hasCard()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily boolean modules.\+Client.\+has\+Card (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}}}]{card }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks if client own specified card 
+\begin{DoxyParams}{Parameters}
+{\em card} & -\/ card object to find \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+owner flag 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1_client_a85eedfbdd0cdde608d7ce84aeb215e52}\label{classmodules_1_1_client_a85eedfbdd0cdde608d7ce84aeb215e52}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!has\+Card@{has\+Card}}
+\index{has\+Card@{has\+Card}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{has\+Card()}{hasCard()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily boolean modules.\+Client.\+has\+Card (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks if client own specified card 
+\begin{DoxyParams}{Parameters}
+{\em number} & -\/ card\textquotesingle{}s number to find \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+owner flag 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1_client_ae4fbf557127b160ce3de90af49bc3ff9}\label{classmodules_1_1_client_ae4fbf557127b160ce3de90af49bc3ff9}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!set\+Name@{set\+Name}}
+\index{set\+Name@{set\+Name}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{set\+Name()}{setName()}}
+{\footnotesize\ttfamily void modules.\+Client.\+set\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets new name 
+\begin{DoxyParams}{Parameters}
+{\em name} & -\/ string with new name \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1_client_acaea2a8b2086e298e3b22b86c409ecf4}\label{classmodules_1_1_client_acaea2a8b2086e298e3b22b86c409ecf4}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!set\+Pesel@{set\+Pesel}}
+\index{set\+Pesel@{set\+Pesel}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{set\+Pesel()}{setPesel()}}
+{\footnotesize\ttfamily void modules.\+Client.\+set\+Pesel (\begin{DoxyParamCaption}\item[{String}]{pesel }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets new pesel value 
+\begin{DoxyParams}{Parameters}
+{\em pesel} & -\/ string with pesel \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1_client_a06f2d345b05093b2d61ca6cfc1f406a1}\label{classmodules_1_1_client_a06f2d345b05093b2d61ca6cfc1f406a1}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!set\+Surname@{set\+Surname}}
+\index{set\+Surname@{set\+Surname}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{set\+Surname()}{setSurname()}}
+{\footnotesize\ttfamily void modules.\+Client.\+set\+Surname (\begin{DoxyParamCaption}\item[{String}]{surname }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Sets new surname 
+\begin{DoxyParams}{Parameters}
+{\em surname} & -\/ string with new surname \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1_client_a9ed6710e3598afe3dda7dac426c495fe}\label{classmodules_1_1_client_a9ed6710e3598afe3dda7dac426c495fe}} 
+\index{modules\+::\+Client@{modules\+::\+Client}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!modules\+::\+Client@{modules\+::\+Client}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily String modules.\+Client.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Overridden method that converts object to string 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/Client.\+java\end{DoxyCompactItemize}

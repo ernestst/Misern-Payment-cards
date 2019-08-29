@@ -1,0 +1,242 @@
+\hypertarget{classsystem_1_1_database}{}\section{system.\+Database Class Reference}
+\label{classsystem_1_1_database}\index{system.\+Database@{system.\+Database}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_user}{User}} $>$ \mbox{\hyperlink{classsystem_1_1_database_a563b32594ca62b2a365614df76f88a32}{R\+User}} ()  throws I\+O\+Exception, Class\+Not\+Found\+Exception 
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} $>$ \mbox{\hyperlink{classsystem_1_1_database_a699e545bc13bed8b01d1fa3748915656}{R\+Transaction}} ()  throws I\+O\+Exception, Class\+Not\+Found\+Exception
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} $>$ \mbox{\hyperlink{classsystem_1_1_database_a8aa0cd11f470af2f79e39447ded74416}{R\+Company}} ()  throws I\+O\+Exception, Class\+Not\+Found\+Exception
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} $>$ \mbox{\hyperlink{classsystem_1_1_database_a1cd62e343cf922e01a0c78507793797d}{R\+Bank}} ()  throws I\+O\+Exception, Class\+Not\+Found\+Exception, Data\+Card\+Exception
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1_client}{Client}} $>$ \mbox{\hyperlink{classsystem_1_1_database_a7fa9b0351cb06cb2791c1315363d58ed}{R\+Client}} ()  throws I\+O\+Exception, Class\+Not\+Found\+Exception
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} $>$ \mbox{\hyperlink{classsystem_1_1_database_aa5a502f945de7e737fa11ffedf2a708e}{R\+Card}} ()  throws I\+O\+Exception, Class\+Not\+Found\+Exception, Data\+Card\+Exception
+\item 
+void \mbox{\hyperlink{classsystem_1_1_database_aaf148920dea060c0549a7482d2b5df33}{S\+User}} (Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_user}{User}} $>$ co)  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classsystem_1_1_database_a4de6d2521c128d80081d8723cf13e155}{S\+Company}} (Array\+List$<$ \mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} $>$ co)  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classsystem_1_1_database_a64a050b14b8bb4b3dcecb34921291099}{S\+Client}} (Array\+List$<$ \mbox{\hyperlink{classmodules_1_1_client}{Client}} $>$ cl)  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classsystem_1_1_database_ab4e8d37f1334b4a6f4ff60ab6c743ee3}{S\+Bank}} (Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} $>$ ba)  throws I\+O\+Exception
+\item 
+void \mbox{\hyperlink{classsystem_1_1_database_a94a0d7fe7179035d06ab24bf07968543}{S\+Card}} (Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} $>$ ca)  throws I\+O\+Exception 
+\item 
+void \mbox{\hyperlink{classsystem_1_1_database_a1a8335a4171ef7faf63e803fb844d7a0}{S\+Transaction}} (Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} $>$ tr)  throws I\+O\+Exception 
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{classsystem_1_1_database}{Database}} works on project files \begin{DoxyAuthor}{Author}
+Ernest Stachelski 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+04 
+\end{DoxyVersion}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classsystem_1_1_database_a1cd62e343cf922e01a0c78507793797d}\label{classsystem_1_1_database_a1cd62e343cf922e01a0c78507793797d}} 
+\index{system\+::\+Database@{system\+::\+Database}!R\+Bank@{R\+Bank}}
+\index{R\+Bank@{R\+Bank}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{R\+Bank()}{RBank()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}}$>$ system.\+Database.\+R\+Bank (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception, Class\+Not\+Found\+Exception, \mbox{\hyperlink{classsystem_1_1exceptions_1_1_data_card_exception}{Data\+Card\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reads Banks file \begin{DoxyReturn}{Returns}
+Array\+List Banks 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+{\em Data\+Card\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_aa5a502f945de7e737fa11ffedf2a708e}\label{classsystem_1_1_database_aa5a502f945de7e737fa11ffedf2a708e}} 
+\index{system\+::\+Database@{system\+::\+Database}!R\+Card@{R\+Card}}
+\index{R\+Card@{R\+Card}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{R\+Card()}{RCard()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}}$>$ system.\+Database.\+R\+Card (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception, Class\+Not\+Found\+Exception, \mbox{\hyperlink{classsystem_1_1exceptions_1_1_data_card_exception}{Data\+Card\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reads Clients file \begin{DoxyReturn}{Returns}
+Array\+List Clients 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+{\em Data\+Card\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_a7fa9b0351cb06cb2791c1315363d58ed}\label{classsystem_1_1_database_a7fa9b0351cb06cb2791c1315363d58ed}} 
+\index{system\+::\+Database@{system\+::\+Database}!R\+Client@{R\+Client}}
+\index{R\+Client@{R\+Client}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{R\+Client()}{RClient()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1_client}{Client}}$>$ system.\+Database.\+R\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception, Class\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reads Clients file \begin{DoxyReturn}{Returns}
+Array\+List Clients 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_a8aa0cd11f470af2f79e39447ded74416}\label{classsystem_1_1_database_a8aa0cd11f470af2f79e39447ded74416}} 
+\index{system\+::\+Database@{system\+::\+Database}!R\+Company@{R\+Company}}
+\index{R\+Company@{R\+Company}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{R\+Company()}{RCompany()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}}$>$ system.\+Database.\+R\+Company (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception, Class\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reads Companies file \begin{DoxyReturn}{Returns}
+Array\+List Companies 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_a699e545bc13bed8b01d1fa3748915656}\label{classsystem_1_1_database_a699e545bc13bed8b01d1fa3748915656}} 
+\index{system\+::\+Database@{system\+::\+Database}!R\+Transaction@{R\+Transaction}}
+\index{R\+Transaction@{R\+Transaction}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{R\+Transaction()}{RTransaction()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}}$>$ system.\+Database.\+R\+Transaction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception, Class\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reads Transactions file \begin{DoxyReturn}{Returns}
+Array\+List Transactions 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_a563b32594ca62b2a365614df76f88a32}\label{classsystem_1_1_database_a563b32594ca62b2a365614df76f88a32}} 
+\index{system\+::\+Database@{system\+::\+Database}!R\+User@{R\+User}}
+\index{R\+User@{R\+User}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{R\+User()}{RUser()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1center_1_1_user}{User}}$>$ system.\+Database.\+R\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) throws I\+O\+Exception, Class\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Reads Users file \begin{DoxyReturn}{Returns}
+Array\+List Users 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_ab4e8d37f1334b4a6f4ff60ab6c743ee3}\label{classsystem_1_1_database_ab4e8d37f1334b4a6f4ff60ab6c743ee3}} 
+\index{system\+::\+Database@{system\+::\+Database}!S\+Bank@{S\+Bank}}
+\index{S\+Bank@{S\+Bank}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{S\+Bank()}{SBank()}}
+{\footnotesize\ttfamily void system.\+Database.\+S\+Bank (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} $>$}]{ba }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Saves Banks List 
+\begin{DoxyParams}{Parameters}
+{\em ba} & represents list of all banks \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_a94a0d7fe7179035d06ab24bf07968543}\label{classsystem_1_1_database_a94a0d7fe7179035d06ab24bf07968543}} 
+\index{system\+::\+Database@{system\+::\+Database}!S\+Card@{S\+Card}}
+\index{S\+Card@{S\+Card}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{S\+Card()}{SCard()}}
+{\footnotesize\ttfamily void system.\+Database.\+S\+Card (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} $>$}]{ca }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Saves Cards List 
+\begin{DoxyParams}{Parameters}
+{\em ca} & represents list of all cards \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_a64a050b14b8bb4b3dcecb34921291099}\label{classsystem_1_1_database_a64a050b14b8bb4b3dcecb34921291099}} 
+\index{system\+::\+Database@{system\+::\+Database}!S\+Client@{S\+Client}}
+\index{S\+Client@{S\+Client}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{S\+Client()}{SClient()}}
+{\footnotesize\ttfamily void system.\+Database.\+S\+Client (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classmodules_1_1_client}{Client}} $>$}]{cl }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Saves Cleints List 
+\begin{DoxyParams}{Parameters}
+{\em cl} & represents list of all clients \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_a4de6d2521c128d80081d8723cf13e155}\label{classsystem_1_1_database_a4de6d2521c128d80081d8723cf13e155}} 
+\index{system\+::\+Database@{system\+::\+Database}!S\+Company@{S\+Company}}
+\index{S\+Company@{S\+Company}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{S\+Company()}{SCompany()}}
+{\footnotesize\ttfamily void system.\+Database.\+S\+Company (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classmodules_1_1company_1_1_company}{Company}} $>$}]{co }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Saves Companies List 
+\begin{DoxyParams}{Parameters}
+{\em co} & represents list of all companies \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_a1a8335a4171ef7faf63e803fb844d7a0}\label{classsystem_1_1_database_a1a8335a4171ef7faf63e803fb844d7a0}} 
+\index{system\+::\+Database@{system\+::\+Database}!S\+Transaction@{S\+Transaction}}
+\index{S\+Transaction@{S\+Transaction}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{S\+Transaction()}{STransaction()}}
+{\footnotesize\ttfamily void system.\+Database.\+S\+Transaction (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} $>$}]{tr }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Saves Transactions List 
+\begin{DoxyParams}{Parameters}
+{\em tr} & represents list of all transactions \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classsystem_1_1_database_aaf148920dea060c0549a7482d2b5df33}\label{classsystem_1_1_database_aaf148920dea060c0549a7482d2b5df33}} 
+\index{system\+::\+Database@{system\+::\+Database}!S\+User@{S\+User}}
+\index{S\+User@{S\+User}!system\+::\+Database@{system\+::\+Database}}
+\subsubsection{\texorpdfstring{S\+User()}{SUser()}}
+{\footnotesize\ttfamily void system.\+Database.\+S\+User (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classmodules_1_1center_1_1_user}{User}} $>$}]{co }\end{DoxyParamCaption}) throws I\+O\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+Saves User List 
+\begin{DoxyParams}{Parameters}
+{\em u} & represents list of all users \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em I\+O\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+system/Database.\+java\end{DoxyCompactItemize}

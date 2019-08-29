@@ -1,0 +1,147 @@
+\hypertarget{classmodules_1_1bank_1_1_bank}{}\section{modules.\+bank.\+Bank Class Reference}
+\label{classmodules_1_1bank_1_1_bank}\index{modules.\+bank.\+Bank@{modules.\+bank.\+Bank}}
+Inheritance diagram for modules.\+bank.\+Bank\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classmodules_1_1bank_1_1_bank}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmodules_1_1bank_1_1_bank_adab0c5144eabfff1ec68b17c85ccb82c}{Bank}} (String name)
+\item 
+void \mbox{\hyperlink{classmodules_1_1bank_1_1_bank_a09c003792c8c8db5c497a6b52219b0f7}{add\+Client}} (\mbox{\hyperlink{classmodules_1_1_client}{Client}} client)
+\item 
+void \mbox{\hyperlink{classmodules_1_1bank_1_1_bank_ae7ca045a74af810ef3a725d4caa675dc}{delete\+\_\+\+Client}} (String pesel)  throws Person\+Doesnt\+Exist\+Exception 
+\item 
+boolean \mbox{\hyperlink{classmodules_1_1bank_1_1_bank_ab1f1401b5f940afa992f956dcc14fe68}{check\+Transaction}} (\mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}} trans)
+\item 
+String \mbox{\hyperlink{classmodules_1_1bank_1_1_bank_a0eab8718f802478789bd6af09fe5830f}{get\+Name}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1bank_1_1_bank_af1a426fe4526cbc9d5cefa289bd36856}{set\+Name}} (String name)
+\item 
+Array\+List$<$ \mbox{\hyperlink{classmodules_1_1_client}{Client}} $>$ \mbox{\hyperlink{classmodules_1_1bank_1_1_bank_ab883f59128823f976fbea30f363f1328}{get\+Clients}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1bank_1_1_bank_afb7f67a0bc547c413df5f284af824a32}{set\+Clients}} (Array\+List$<$ \mbox{\hyperlink{classmodules_1_1_client}{Client}} $>$ clients)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class represents specified \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} object \begin{DoxyAuthor}{Author}
+Micha³ Fi³oñczuk 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+5 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_bank_adab0c5144eabfff1ec68b17c85ccb82c}\label{classmodules_1_1bank_1_1_bank_adab0c5144eabfff1ec68b17c85ccb82c}} 
+\index{modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}!Bank@{Bank}}
+\index{Bank@{Bank}!modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}}
+\subsubsection{\texorpdfstring{Bank()}{Bank()}}
+{\footnotesize\ttfamily modules.\+bank.\+Bank.\+Bank (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Standard \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} constructor 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Data\+Card\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_bank_a09c003792c8c8db5c497a6b52219b0f7}\label{classmodules_1_1bank_1_1_bank_a09c003792c8c8db5c497a6b52219b0f7}} 
+\index{modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}!add\+Client@{add\+Client}}
+\index{add\+Client@{add\+Client}!modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}}
+\subsubsection{\texorpdfstring{add\+Client()}{addClient()}}
+{\footnotesize\ttfamily void modules.\+bank.\+Bank.\+add\+Client (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1_client}{Client}}}]{client }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Adds \mbox{\hyperlink{classmodules_1_1_client}{Client}} to local list 
+\begin{DoxyParams}{Parameters}
+{\em client} & represents Object \mbox{\hyperlink{classmodules_1_1_client}{Client}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_bank_ab1f1401b5f940afa992f956dcc14fe68}\label{classmodules_1_1bank_1_1_bank_ab1f1401b5f940afa992f956dcc14fe68}} 
+\index{modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}!check\+Transaction@{check\+Transaction}}
+\index{check\+Transaction@{check\+Transaction}!modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}}
+\subsubsection{\texorpdfstring{check\+Transaction()}{checkTransaction()}}
+{\footnotesize\ttfamily boolean modules.\+bank.\+Bank.\+check\+Transaction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmodules_1_1center_1_1_transaction}{Transaction}}}]{trans }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Transaction service 
+\begin{DoxyParams}{Parameters}
+{\em trans} & Transaction -\/ object to execute \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean true -\/ if transaction is accepted, false -\/ if transaction is rejected 
+\end{DoxyReturn}
+\begin{DoxyAuthor}{Author}
+Ernest Stachelski \& Micha³ Fi³oñczuk 
+\end{DoxyAuthor}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_bank_ae7ca045a74af810ef3a725d4caa675dc}\label{classmodules_1_1bank_1_1_bank_ae7ca045a74af810ef3a725d4caa675dc}} 
+\index{modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}!delete\+\_\+\+Client@{delete\+\_\+\+Client}}
+\index{delete\+\_\+\+Client@{delete\+\_\+\+Client}!modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}}
+\subsubsection{\texorpdfstring{delete\+\_\+\+Client()}{delete\_Client()}}
+{\footnotesize\ttfamily void modules.\+bank.\+Bank.\+delete\+\_\+\+Client (\begin{DoxyParamCaption}\item[{String}]{pesel }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classsystem_1_1exceptions_1_1_person_doesnt_exist_exception}{Person\+Doesnt\+Exist\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Deletes \mbox{\hyperlink{classmodules_1_1_client}{Client}} with specified P\+E\+S\+EL 
+\begin{DoxyParams}{Parameters}
+{\em pesel} & -\/ String represents clients P\+E\+S\+EL \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Person\+Doesnt\+Exist\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_bank_ab883f59128823f976fbea30f363f1328}\label{classmodules_1_1bank_1_1_bank_ab883f59128823f976fbea30f363f1328}} 
+\index{modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}!get\+Clients@{get\+Clients}}
+\index{get\+Clients@{get\+Clients}!modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}}
+\subsubsection{\texorpdfstring{get\+Clients()}{getClients()}}
+{\footnotesize\ttfamily Array\+List$<$\mbox{\hyperlink{classmodules_1_1_client}{Client}}$>$ modules.\+bank.\+Bank.\+get\+Clients (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter List of Clients \begin{DoxyReturn}{Returns}
+Array\+List Clients 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_bank_a0eab8718f802478789bd6af09fe5830f}\label{classmodules_1_1bank_1_1_bank_a0eab8718f802478789bd6af09fe5830f}} 
+\index{modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily String modules.\+bank.\+Bank.\+get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} Name \begin{DoxyReturn}{Returns}
+String name 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_bank_afb7f67a0bc547c413df5f284af824a32}\label{classmodules_1_1bank_1_1_bank_afb7f67a0bc547c413df5f284af824a32}} 
+\index{modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}!set\+Clients@{set\+Clients}}
+\index{set\+Clients@{set\+Clients}!modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}}
+\subsubsection{\texorpdfstring{set\+Clients()}{setClients()}}
+{\footnotesize\ttfamily void modules.\+bank.\+Bank.\+set\+Clients (\begin{DoxyParamCaption}\item[{Array\+List$<$ \mbox{\hyperlink{classmodules_1_1_client}{Client}} $>$}]{clients }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Setter List of Clients 
+\begin{DoxyParams}{Parameters}
+{\em clients} & represents Clients List \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_bank_af1a426fe4526cbc9d5cefa289bd36856}\label{classmodules_1_1bank_1_1_bank_af1a426fe4526cbc9d5cefa289bd36856}} 
+\index{modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}!set\+Name@{set\+Name}}
+\index{set\+Name@{set\+Name}!modules\+::bank\+::\+Bank@{modules\+::bank\+::\+Bank}}
+\subsubsection{\texorpdfstring{set\+Name()}{setName()}}
+{\footnotesize\ttfamily void modules.\+bank.\+Bank.\+set\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Setter \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} Name 
+\begin{DoxyParams}{Parameters}
+{\em name} & represents \mbox{\hyperlink{classmodules_1_1bank_1_1_bank}{Bank}} name \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/bank/Bank.\+java\end{DoxyCompactItemize}

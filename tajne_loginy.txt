@@ -1,0 +1,5 @@
+admin admin - centrum
+login login - bank OKP
+bank bank - bank PKO
+firma firma - firma us³ugowa Apple
+bankk bankk - bankomat

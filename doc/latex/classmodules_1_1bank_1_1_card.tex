@@ -1,0 +1,186 @@
+\hypertarget{classmodules_1_1bank_1_1_card}{}\section{modules.\+bank.\+Card Class Reference}
+\label{classmodules_1_1bank_1_1_card}\index{modules.\+bank.\+Card@{modules.\+bank.\+Card}}
+Inheritance diagram for modules.\+bank.\+Card\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classmodules_1_1bank_1_1_card}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a386f72c5b038bc8d80d10fd77b2c8db3}\label{classmodules_1_1bank_1_1_card_a386f72c5b038bc8d80d10fd77b2c8db3}} 
+abstract int {\bfseries get\+Limit} ()
+\item 
+\mbox{\hyperlink{classmodules_1_1bank_1_1_card_a19e7ab54952594ea01d2f79bc984b4d1}{Card}} (int n, String e)  throws Data\+Card\+Exception
+\item 
+double \mbox{\hyperlink{classmodules_1_1bank_1_1_card_a62067906bc5ee5295a3e141cd4e9b9e8}{get\+Balance}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1bank_1_1_card_a535c0ca771797c3d788fb1db64b16d15}{set\+Balance}} (double e)
+\item 
+int \mbox{\hyperlink{classmodules_1_1bank_1_1_card_a4d1b385624f4b1a3d2bea7a88082f4f3}{get\+Number}} ()
+\item 
+String \mbox{\hyperlink{classmodules_1_1bank_1_1_card_a4a06523d1698faecc6fb2f2c2345f810}{get\+Exp\+\_\+date}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1bank_1_1_card_a2836bec99670bb580486005abfa86cac}{block\+Card}} ()
+\item 
+boolean \mbox{\hyperlink{classmodules_1_1bank_1_1_card_a2f5180fdbd0c6f73d1fb87af19a1f4be}{is\+Blocked}} ()
+\item 
+long \mbox{\hyperlink{classmodules_1_1bank_1_1_card_a91869b7c3dad648eb2470f27b0bb8a26}{get\+Id}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1bank_1_1_card_a86370f2515d7612de7da603be14bad44}{set\+Number}} (int number)
+\item 
+String \mbox{\hyperlink{classmodules_1_1bank_1_1_card_aad416f3b110c7e08f3294b1b0cfd58d2}{to\+String}} ()
+\item 
+void \mbox{\hyperlink{classmodules_1_1bank_1_1_card_aa51b9d8df455d47e167192a911ca883b}{set\+Exp\+\_\+date}} (String exp\+\_\+date)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_af4a87d2221c15317c9baf2c8003069d3}\label{classmodules_1_1bank_1_1_card_af4a87d2221c15317c9baf2c8003069d3}} 
+int {\bfseries number}
+\item 
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_ac8fef3d0557ee5cdf61aba050f0fd19d}\label{classmodules_1_1bank_1_1_card_ac8fef3d0557ee5cdf61aba050f0fd19d}} 
+long {\bfseries id}
+\item 
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_aed43b7a2f26e6473067b57a155987e23}\label{classmodules_1_1bank_1_1_card_aed43b7a2f26e6473067b57a155987e23}} 
+double {\bfseries balance}
+\item 
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a61725dc4f6f2dce3b8d78eb8523645b8}\label{classmodules_1_1bank_1_1_card_a61725dc4f6f2dce3b8d78eb8523645b8}} 
+String {\bfseries exp\+\_\+date}
+\item 
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_aa5ff463df6e0a2b49513652b9435955b}\label{classmodules_1_1bank_1_1_card_aa5ff463df6e0a2b49513652b9435955b}} 
+boolean {\bfseries blocked} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstract Class \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} represents Account \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} \begin{DoxyAuthor}{Author}
+Ernest Stachelski 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+5 
+\end{DoxyVersion}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a19e7ab54952594ea01d2f79bc984b4d1}\label{classmodules_1_1bank_1_1_card_a19e7ab54952594ea01d2f79bc984b4d1}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!Card@{Card}}
+\index{Card@{Card}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{Card()}{Card()}}
+{\footnotesize\ttfamily modules.\+bank.\+Card.\+Card (\begin{DoxyParamCaption}\item[{int}]{n,  }\item[{String}]{e }\end{DoxyParamCaption}) throws \mbox{\hyperlink{classsystem_1_1exceptions_1_1_data_card_exception}{Data\+Card\+Exception}}\hspace{0.3cm}{\ttfamily [inline]}}
+
+Standard Constructor 
+\begin{DoxyParams}{Parameters}
+{\em n} & represents \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} name \\
+\hline
+{\em e} & represents expiration date \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Class\+Not\+Found\+Exception} & \\
+\hline
+{\em I\+O\+Exception} & \\
+\hline
+{\em Data\+Card\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a2836bec99670bb580486005abfa86cac}\label{classmodules_1_1bank_1_1_card_a2836bec99670bb580486005abfa86cac}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!block\+Card@{block\+Card}}
+\index{block\+Card@{block\+Card}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{block\+Card()}{blockCard()}}
+{\footnotesize\ttfamily void modules.\+bank.\+Card.\+block\+Card (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Blocks \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} \mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a62067906bc5ee5295a3e141cd4e9b9e8}\label{classmodules_1_1bank_1_1_card_a62067906bc5ee5295a3e141cd4e9b9e8}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!get\+Balance@{get\+Balance}}
+\index{get\+Balance@{get\+Balance}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{get\+Balance()}{getBalance()}}
+{\footnotesize\ttfamily double modules.\+bank.\+Card.\+get\+Balance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter Card/\+Account Balance \begin{DoxyReturn}{Returns}
+double Balance 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a4a06523d1698faecc6fb2f2c2345f810}\label{classmodules_1_1bank_1_1_card_a4a06523d1698faecc6fb2f2c2345f810}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!get\+Exp\+\_\+date@{get\+Exp\+\_\+date}}
+\index{get\+Exp\+\_\+date@{get\+Exp\+\_\+date}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{get\+Exp\+\_\+date()}{getExp\_date()}}
+{\footnotesize\ttfamily String modules.\+bank.\+Card.\+get\+Exp\+\_\+date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter Expiration Date \begin{DoxyReturn}{Returns}
+String Expiration Date 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a91869b7c3dad648eb2470f27b0bb8a26}\label{classmodules_1_1bank_1_1_card_a91869b7c3dad648eb2470f27b0bb8a26}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!get\+Id@{get\+Id}}
+\index{get\+Id@{get\+Id}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{get\+Id()}{getId()}}
+{\footnotesize\ttfamily long modules.\+bank.\+Card.\+get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} Id \begin{DoxyReturn}{Returns}
+int Id 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a4d1b385624f4b1a3d2bea7a88082f4f3}\label{classmodules_1_1bank_1_1_card_a4d1b385624f4b1a3d2bea7a88082f4f3}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!get\+Number@{get\+Number}}
+\index{get\+Number@{get\+Number}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{get\+Number()}{getNumber()}}
+{\footnotesize\ttfamily int modules.\+bank.\+Card.\+get\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} Number \begin{DoxyReturn}{Returns}
+int number 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a2f5180fdbd0c6f73d1fb87af19a1f4be}\label{classmodules_1_1bank_1_1_card_a2f5180fdbd0c6f73d1fb87af19a1f4be}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!is\+Blocked@{is\+Blocked}}
+\index{is\+Blocked@{is\+Blocked}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{is\+Blocked()}{isBlocked()}}
+{\footnotesize\ttfamily boolean modules.\+bank.\+Card.\+is\+Blocked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Checks if card is blocked \begin{DoxyReturn}{Returns}
+true if card is blocked 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a535c0ca771797c3d788fb1db64b16d15}\label{classmodules_1_1bank_1_1_card_a535c0ca771797c3d788fb1db64b16d15}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!set\+Balance@{set\+Balance}}
+\index{set\+Balance@{set\+Balance}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{set\+Balance()}{setBalance()}}
+{\footnotesize\ttfamily void modules.\+bank.\+Card.\+set\+Balance (\begin{DoxyParamCaption}\item[{double}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Setter \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} Balance 
+\begin{DoxyParams}{Parameters}
+{\em e} & represents money send to \mbox{\hyperlink{classmodules_1_1bank_1_1_card}{Card}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_aa51b9d8df455d47e167192a911ca883b}\label{classmodules_1_1bank_1_1_card_aa51b9d8df455d47e167192a911ca883b}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!set\+Exp\+\_\+date@{set\+Exp\+\_\+date}}
+\index{set\+Exp\+\_\+date@{set\+Exp\+\_\+date}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{set\+Exp\+\_\+date()}{setExp\_date()}}
+{\footnotesize\ttfamily void modules.\+bank.\+Card.\+set\+Exp\+\_\+date (\begin{DoxyParamCaption}\item[{String}]{exp\+\_\+date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Getter for exp date 
+\begin{DoxyParams}{Parameters}
+{\em exp\+\_\+date} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_a86370f2515d7612de7da603be14bad44}\label{classmodules_1_1bank_1_1_card_a86370f2515d7612de7da603be14bad44}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!set\+Number@{set\+Number}}
+\index{set\+Number@{set\+Number}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{set\+Number()}{setNumber()}}
+{\footnotesize\ttfamily void modules.\+bank.\+Card.\+set\+Number (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Setter for card number 
+\begin{DoxyParams}{Parameters}
+{\em number} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classmodules_1_1bank_1_1_card_aad416f3b110c7e08f3294b1b0cfd58d2}\label{classmodules_1_1bank_1_1_card_aad416f3b110c7e08f3294b1b0cfd58d2}} 
+\index{modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}!to\+String@{to\+String}}
+\index{to\+String@{to\+String}!modules\+::bank\+::\+Card@{modules\+::bank\+::\+Card}}
+\subsubsection{\texorpdfstring{to\+String()}{toString()}}
+{\footnotesize\ttfamily String modules.\+bank.\+Card.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Converts object to string value 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+modules/bank/Card.\+java\end{DoxyCompactItemize}
